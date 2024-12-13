@@ -4,7 +4,7 @@ import menu from "../utils/menu.json";
 
 const HomePage = () => {
   return (
-    <main>
+    <main className="home_page">
       {menu.main_course.map((item: {[key:string]:any}, index: number) => {
         return <MenuItemCard key={index} item={item} />;
       })}
