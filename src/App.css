@@ -221,8 +221,9 @@ button {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
   margin-top: 80px; /* Push content down to avoid overlap with the image */
   border-radius: 10px; /* Smooth edges */
-  background-color: var(--keif-white);
   padding: 20px;
+  background-color: #a8926fCC;
+
 }
 
 .item_name {
@@ -234,7 +235,7 @@ button {
 
 .item_desc {
   font-size: 14px;
-  color: var(--keif-black);
+  color: var(--keif-white);
   margin: 10px 0;
 }
 
