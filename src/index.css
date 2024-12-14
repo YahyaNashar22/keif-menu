@@ -1,9 +1,21 @@
-:root{
---night: #131211ff;
---night-2: #0D0C0Bff;
---jet: #484344ff;
---eerie-black: #19191Aff;
---yellow: #EFDA63ff;
---white: #F5F5F5;
---red: #D72638;
+:root {
+  /* dark theme palette */
+  --night: #131211ff;
+  --night-2: #0d0c0bff;
+  --jet: #484344ff;
+  --eerie-black: #19191aff;
+  --yellow: #efda63ff;
+  --white: #f5f5f5;
+  --red: #d72638;
+
+  /* light theme palette */
+  --keif-white: #fff;
+  --keif-red: #d32f2f;
+  --keif-black: #212121;
+  --keif-green: #388e3c;
+  --keif-beige: #e0d8b0;
+  --keif-dark-beige: #c4b78a;
+  --keif-brownish-beige: #a8926f;
+  --keif-gold: #ffc107;
+  --keif-light-green: #a5d6a7;
 }
