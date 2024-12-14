@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+/* sections design */
+.main_course_section {
+  background-image: url("../public/main_course_1.jpg");
+
+}
+
+.drinks_section {
+  background-image: url("../public/drinks.jpg");
+  background-size: cover;
+
+}
+
 /* Global Styles */
 body {
   font-family: "Playfair Display", serif;
@@ -16,6 +28,13 @@ body {
 h1,
 h2 {
   font-weight: 700;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--keif-gold);
+  margin: 10px auto;
+  text-align: center;
 }
 
 a {
@@ -184,53 +203,33 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 50px;
-  padding: 20px;
   min-height: 100vh;
   background-color: var(--keif-beige);
 }
 
 /* Card styling */
-.card_wrapper {
-  position: relative;
-  width: 90%; /* Card width */
-  height: 100%;
-  background-color: var(--keif-white); /* Card background */
-  padding: 15px;
-  text-align: center;
-  overflow: visible; /* Ensures text/images don't overflow */
-  z-index: 0; /* Ensure it stays behind the image */
-}
-
-/* Styling for the image */
-.item_pic {
-  position: absolute;
-  top: -50px; /* Pop the image out at the top */
-  left: 70px; /* Center the image horizontally */
-  transform: translateX(-50%); /* Center adjustment */
-  width: 150px; /* Image size */
-  height: 150px;
-  border-radius: 50%; /* Circular image */
-  object-fit: cover; /* Ensures the image covers the area perfectly */
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Shadow for the pop-out effect */
-  z-index: 1; /* Make sure the image is above the card */
-}
 
 /* Card content below the image */
 .card_content {
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
-  margin-top: 80px; /* Push content down to avoid overlap with the image */
-  border-radius: 10px; /* Smooth edges */
   padding: 20px;
-  background-color: #a8926fCC;
+  width: 100%;
+  position: relative;
+}
 
+.item_picture {
+  float: right;
+}
+
+.name_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .item_name {
   font-size: 18px;
   font-weight: bold;
   color: var(--keif-gold);
-  margin-top: 10px;
 }
 
 .item_desc {
@@ -277,8 +276,7 @@ button {
 /* Modal content styles */
 .modal_content {
   position: relative;
-  background: white;
-  padding: 20px;
+  background: var(--keif-brownish-beige);
   border-radius: 10px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
   max-width: 90%;
@@ -302,7 +300,7 @@ button {
   right: 10px;
   background: none;
   border: none;
-  color: var(--night);
+  color: var(--keif-gold);
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
@@ -317,7 +315,13 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 100px;
+  gap: 10px;
+  width: 100%;
+  background-size: "contain";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* BreadCrumbs container styles */
@@ -369,4 +373,27 @@ button {
     font-size: 0.9rem;
     padding: 0.4rem 0.8rem;
   }
+}
+
+.divider {
+  width: 100%; /* Adjust width as needed */
+  height: 40px; /* Thin and elegant */
+  background: linear-gradient(
+    to right,
+    var(--keif-brownish-beige),
+    var(--keif-beige),
+    var(--keif-brownish-beige),
+  ); /* Nice fade effect */
+  border-radius: 5px; /* Rounded edges */
+  position: relative; /* For decorative text */
+}
+
+.divider::after {
+  content: "* * *"; /* Decorative text, adjust as desired */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-40%);
+  font-size: 32px;
+  color: var(--keif-brownish-beige); /* Matches the gradient */
+  padding: 0 10px;
 }
