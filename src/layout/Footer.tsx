@@ -2,10 +2,10 @@ import "../App.css";
 
 import { Link } from "react-router-dom";
 
-import instagram from "../../public/instagram.png";
-import facebook from "../../public/facebook.png";
-import location from "../../public/location.png";
-import logo from "../../public/logo.webp";
+import instagram from "../assets/instagram.png";
+import facebook from "../assets/facebook.png";
+import location from "../assets/location.png";
+import logo from "../assets/logo.webp";
 
 const Footer = () => {
   return (

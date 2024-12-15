@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import logo from "../../public/logo.webp";
+import logo from "../assets/logo.webp";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

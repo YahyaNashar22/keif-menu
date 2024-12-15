@@ -30,7 +30,7 @@ button {
 
 /* NavBar Styles */
 .navbar_container {
-  background-color: var(--night-2);
+  background-color: var(--dark-beige);
   padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
