@@ -8,16 +8,16 @@ const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
   const closeModal = () => setIsModalOpen(false);
   return (
     <>
-      <div className="card_wrapper" onClick={openModal} style={{backgroundImage: `url(${item.image_url})`, backgroundSize:"cover", backgroundRepeat: "no-repeat"}}>
-        {/* <div className="card_image_wrapper">
+      <div className="card_wrapper">
+        <div className="card_image_wrapper">
           <img
             src={item.image_url}
             className="item_pic"
             alt={item.name}
             onClick={openModal}
           />
-        </div> */}
-        <div className="card_content" >
+        </div>
+        <div className="card_content">
           <h2 className="item_name">{item.name}</h2>
           <p className="item_desc">{item.description}</p>
           <p className="item_price">{item.price}$</p>
