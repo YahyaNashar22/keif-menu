@@ -9,8 +9,8 @@
 /* Global Styles */
 body {
   font-family: "Playfair Display", serif;
-  color: var(--white);
-  background-color: var(--night);
+  color: var(--keif-black);
+  background-color: var(--keif-beige);
 }
 
 h1,
@@ -20,7 +20,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--keif-black);
 }
 
 button {
@@ -30,7 +30,7 @@ button {
 
 /* NavBar Styles */
 .navbar_container {
-  background-color: var(--dark-beige);
+  background-color: var(--keif-brownish-beige);
   padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@ button {
 .burger_icon .line {
   width: 25px;
   height: 3px;
-  background-color: var(--white);
+  background-color: var(--keif-beige);
   border-radius: 2px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -77,14 +77,14 @@ button {
   display: none;
   flex-direction: column;
   gap: 1rem;
-  background-color: var(--night-2);
+  background-color: var(--keif-beige);
   padding: 1rem;
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  border-top: 1px solid var(--jet);
+  border-top: 1px solid var(--keif-brownish-beige);
 }
 
 .nav_links.show_menu {
@@ -93,14 +93,14 @@ button {
 
 .nav_link {
   font-size: 1.2rem;
-  color: var(--white);
+  color: var(--keif-black);
   padding: 0.5rem;
   text-align: center;
   transition: color 0.3s ease;
 }
 
 .nav_link:hover {
-  color: var(--yellow);
+  color: var(--keif-green);
 }
 
 /* Responsive Design */
@@ -127,7 +127,7 @@ button {
 /* Footer Styles */
 .footer_container {
   padding: 2rem;
-  background-color: var(--eerie-black);
+  background-color: var(--keif-brownish-beige);
   text-align: center;
 }
 
@@ -143,14 +143,14 @@ button {
 
 .feedback_cta_title {
   font-size: 1.5rem;
-  color: var(--yellow);
+  color: var(--keif-white);
   margin-bottom: 0.5rem;
 }
 
 .feedback_btn {
   padding: 0.5rem 1rem;
-  background-color: var(--red);
-  color: var(--white);
+  background-color: var(--keif-red);
+  color: var(--keif-white);
   border: none;
   border-radius: 5px;
   font-size: 1rem;
@@ -170,12 +170,12 @@ button {
 
 .links a {
   font-size: 1rem;
-  color: var(--white);
+  color: var(--keif-black);
   transition: color 0.3s ease;
 }
 
 .links a:hover {
-  color: var(--yellow);
+  color: var(--keif-green);
 }
 
 /* home_page: The container for the menu items */
@@ -184,64 +184,189 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   padding: 20px;
   min-height: 100vh;
-  background-color: var(--night-2);
+  background-color: var(--keif-beige);
 }
 
-/* card_wrapper: The main card container */
+/* Card styling */
 .card_wrapper {
   position: relative;
-  width: 300px; 
-  background-color: var(--jet);
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-}
-
-/* card_image_wrapper: The wrapper for the image */
-.card_image_wrapper {
-  position: absolute;
-  top: -30px; /* Moves the image outside */
-  left: -30px; /* Moves the image outside */
-  width: 150px; /* Width of the image */
-  height: 150px; /* Height of the image */
-  overflow: hidden;
-  border-radius: 8px; /* Makes the image circular */
-  border: 5px solid var(--jet); /* White border to blend with card */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.item_pic {
-  width: 100%;
+  width: 90%; /* Card width */
   height: 100%;
-  object-fit: cover;
+  background-color: var(--keif-white); /* Card background */
+  padding: 15px;
+  text-align: center;
+  overflow: visible; /* Ensures text/images don't overflow */
+  z-index: 0; /* Ensure it stays behind the image */
 }
 
-/* card_content: The content inside the card */
+/* Styling for the image */
+.item_pic {
+  position: absolute;
+  top: -50px; /* Pop the image out at the top */
+  left: 70px; /* Center the image horizontally */
+  transform: translateX(-50%); /* Center adjustment */
+  width: 150px; /* Image size */
+  height: 150px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; /* Ensures the image covers the area perfectly */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Shadow for the pop-out effect */
+  z-index: 1; /* Make sure the image is above the card */
+}
+
+/* Card content below the image */
 .card_content {
-  margin-top: 70px; /* Adds space at the top to prevent overlap */
-  padding-left: 10px;
-  color: var(--white);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  margin-top: 80px; /* Push content down to avoid overlap with the image */
+  border-radius: 10px; /* Smooth edges */
+  padding: 20px;
+  background-color: #a8926fCC;
+
 }
 
 .item_name {
   font-size: 18px;
   font-weight: bold;
-  margin: 10px 0;
+  color: var(--keif-gold);
+  margin-top: 10px;
 }
 
 .item_desc {
   font-size: 14px;
-  margin-bottom: 15px;
+  color: var(--keif-white);
+  margin: 10px 0;
 }
 
 .item_price {
   font-size: 16px;
-  color: var(--yellow);
+  color: var(--keif-gold);
   font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Modal overlay styles */
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal overlay styles */
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal content styles */
+.modal_content {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal_image {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+/* Close button */
+.modal_close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: var(--night);
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal_close:hover {
+  color: red;
+}
+
+.section_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+/* BreadCrumbs container styles */
+.bread_crumbs {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  justify-content: center; /* Center the breadcrumbs */
+}
+
+/* Individual breadcrumb styles */
+.bread_crumb {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: var(--keif-brownish-beige);
+  color: var(--keif-beige);
+  border: 2px solid var(--keif-brownish-beige);
+  border-radius: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+/* Hover and active states */
+.bread_crumb:hover {
+  background-color: var(--keif-brownish-beige);
+  color: var(--keif-white);
+  transform: translateY(-3px); /* Slight pop-up effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus/active state for accessibility */
+.bread_crumb:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(239, 218, 99, 0.8); /* Highlight effect */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .bread_crumbs {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .bread_crumb {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
 }

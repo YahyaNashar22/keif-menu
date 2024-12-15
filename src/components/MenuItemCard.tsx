@@ -1,17 +1,41 @@
+import { useState } from "react";
 import "../App.css";
 
 const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   return (
-    <div className="card_wrapper">
-    <div className="card_image_wrapper">
-      <img src={item.image_url} className="item_pic" alt="item picture" />
-    </div>
-    <div className="card_content">
-      <h2 className="item_name">{item.name}</h2>
-      <p className="item_desc">{item.description}</p>
-      <p className="item_price">{item.price}$</p>
-    </div>
-  </div>
+    <>
+      <div className="card_wrapper" onClick={openModal} style={{backgroundImage: `url(${item.image_url})`, backgroundSize:"cover", backgroundRepeat: "no-repeat"}}>
+        {/* <div className="card_image_wrapper">
+          <img
+            src={item.image_url}
+            className="item_pic"
+            alt={item.name}
+            onClick={openModal}
+          />
+        </div> */}
+        <div className="card_content" >
+          <h2 className="item_name">{item.name}</h2>
+          <p className="item_desc">{item.description}</p>
+          <p className="item_price">{item.price}$</p>
+        </div>
+      </div>
+
+      {/* Modal Overlay */}
+      {isModalOpen && (
+        <div className="modal_overlay" onClick={closeModal}>
+          <div className="modal_content" onClick={(e) => e.stopPropagation()}>
+            <button className="modal_close" onClick={closeModal}>
+              &times;
+            </button>
+            <img src={item.image_url} alt={item.name} className="modal_image" />
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
