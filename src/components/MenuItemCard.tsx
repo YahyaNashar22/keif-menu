@@ -14,7 +14,10 @@ const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
             src={item.image_url}
             className="item_pic"
             alt={item.name}
+            width={150}
+            height={150}
             onClick={openModal}
+            loading="lazy"
           />
         </div>
         <div className="card_content">

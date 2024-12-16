@@ -19,7 +19,7 @@ h2 {
   font-family: "Dancing Script";
 }
 
-.title{
+.title {
   text-align: center;
   font-family: "Baskervville";
   color: var(--dark-beige);
@@ -109,7 +109,7 @@ button {
 }
 
 .nav_link:hover {
-  color: var(--dark-beige);
+  color: var(--light-beige);
 }
 
 /* Responsive Design */
@@ -167,7 +167,7 @@ button {
 }
 
 .feedback_btn:hover {
-  background-color: #5A3C3B;
+  background-color: #5a3c3b;
 }
 
 .links {
@@ -190,21 +190,22 @@ button {
 /* home_page: The container for the menu items */
 .home_page {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 50px;
   padding: 20px;
-  min-height: 100vh;
+  max-width: 100%;
   background-color: var(--light-beige);
 }
 
 /* Card styling */
 .card_wrapper {
   position: relative;
-  width: 90%; /* Card width */
+  width: 98%; /* Card width */
   height: 100%;
   background-color: white; /* Card background */
+  border-radius: 16px;
   padding: 15px;
   text-align: center;
   overflow: visible; /* Ensures text/images don't overflow */
@@ -214,20 +215,18 @@ button {
 /* Styling for the image */
 .item_pic {
   position: absolute;
-  top: -50px; /* Pop the image out at the top */
+  top: -20px; /* Pop the image out at the top */
   left: 70px; /* Center the image horizontally */
   transform: translateX(-50%); /* Center adjustment */
-  width: 150px; /* Image size */
-  height: 150px;
   border-radius: 50%; /* Circular image */
   object-fit: cover; /* Ensures the image covers the area perfectly */
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Shadow for the pop-out effect */
+  box-shadow: 2px 2px 10px #00000066; /* Shadow for the pop-out effect */
   z-index: 1; /* Make sure the image is above the card */
 }
 
 /* Card content below the image */
 .card_content {
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  box-shadow: 4px 4px 6px #00000066; /* Add a shadow for depth */
   margin-top: 80px; /* Push content down to avoid overlap with the image */
   border-radius: 10px; /* Smooth edges */
   padding: 40px 20px;
@@ -325,16 +324,35 @@ button {
   gap: 100px;
 }
 
-/* BreadCrumbs container styles */
+/* General styles for the breadcrumbs container */
 .bread_crumbs {
+  margin: 0;
+  padding: 10px;
   display: flex;
-  gap: 1rem;
+  flex-wrap: nowrap;
+  white-space: nowrap; /* Prevents wrapping to a new line */
+  width: 100%;
+  max-width: 100%;
+  gap: 10px;
   list-style: none;
-  padding: 0;
-  margin: 1rem 0;
-  justify-content: center; /* Center the breadcrumbs */
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scrollbar-width: thin; /* For Firefox: thin scrollbar */
+  scrollbar-color: var(--dark-beige) var(--light-beige); /* For Firefox: scrollbar colors */
 }
 
+/* Scrollbar styles for WebKit browsers (Chrome, Edge, Safari) */
+.bread_crumbs::-webkit-scrollbar {
+  height: 8px;
+}
+
+.bread_crumbs::-webkit-scrollbar-thumb {
+  background: var(--light-beige); /* Scrollbar thumb color */
+  border-radius: 4px;
+}
+
+.bread_crumbs::-webkit-scrollbar-track {
+  background: var(--light-beige); /* Scrollbar track color */
+}
 /* Individual breadcrumb styles */
 .bread_crumb {
   cursor: pointer;
@@ -347,6 +365,7 @@ button {
   font-size: 1rem;
   transition: all 0.3s ease-in-out;
   text-align: center;
+  flex-shrink: 0;
 }
 
 /* Hover and active states */
@@ -359,7 +378,7 @@ button {
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
   .bread_crumbs {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.5rem;
   }
 

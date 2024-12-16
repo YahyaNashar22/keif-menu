@@ -1,60 +1,35 @@
 {
-  "main_course": [
+  "breakfast": [
     {
-      "name": "Pastalitto",
-      "description": "Feel the savory taste of premium italian pasta Feel the savory taste of premium italian pasta Feel the savory taste of premium italian pasta Feel the savory taste of premium italian pasta Feel the savory taste of premium italian pasta",
+      "name": "Drink",
+      "description": "Enjoy the freshness of our amazing drinks",
       "price": 14.5,
-      "image_url": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "name": "Pastalitto",
-      "description": "Feel the savory taste of premium italian pasta",
-      "price": 14.5,
-      "image_url": "https://images.unsplash.com/photo-1723376329733-f7889dea6236?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "name": "Pastalitto",
-      "description": "Feel the savory taste of premium italian pasta",
-      "price": 14.5,
-      "image_url": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "name": "Pastalitto",
-      "description": "Feel the savory taste of premium italian pasta",
-      "price": 14.5,
-      "image_url": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "name": "Pastalitto",
-      "description": "Feel the savory taste of premium italian pasta",
-      "price": 14.5,
-      "image_url": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ],
-  "drinks": [
-    {
-      "name": "Drink",
-      "description": "Enjoy the freshness of our amazing drinks",
-      "price": 14.5,
-      "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "name": "Drink",
-      "description": "Enjoy the freshness of our amazing drinks",
-      "price": 14.5,
-      "image_url": "https://plus.unsplash.com/premium_photo-1726842349081-86a2b7c28bee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "name": "Drink",
-      "description": "Enjoy the freshness of our amazing drinks",
-      "price": 14.5,
-      "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "name": "Drink",
-      "description": "Enjoy the freshness of our amazing drinks",
-      "price": 14.5,
-      "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    }
-  ]
+  "foron": [],
+  "bagels": [],
+  "foul_w_hummus": [],
+  "appetizers": [],
+  "salads": [],
+  "soups": [],
+  "pasta": [],
+  "pizza": [],
+  "noodles": [],
+  "sandwiches": [],
+  "burgers": [],
+  "main_course": [],
+  "steak": [],
+  "mezze": [],
+  "mashewe": [],
+  "cold_drinks": [],
+  "hot_drinks": [],
+  "fresh_juice": [],
+  "frappe": [],
+  "bubble_tea": [],
+  "milkshakes": [],
+  "smoothies": [],
+  "frozen_yogurt": [],
+  "san_cha": [],
+  "shisha": []
 }

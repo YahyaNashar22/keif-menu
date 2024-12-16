@@ -1,26 +1,28 @@
 import "../App.css";
+import { MenuType } from "../types";
+import formatCategoryName from "../utils/formatCategoryName";
+
+import menuJson from "../utils/menu.json";
 
 const BreadCrumbs = ({
   setSelectedCategory,
 }: {
   setSelectedCategory: (e: any) => void;
 }) => {
-  // TODO: Add BreadCrumbs For All Sections
-
+  const menu: MenuType = menuJson;
   return (
     <ul className="bread_crumbs">
-      <li
-        className="bread_crumb"
-        onClick={() => setSelectedCategory("main_course")}
-      >
-        Main Course
-      </li>
-      <li
-        className="bread_crumb"
-        onClick={() => setSelectedCategory("drinks")}
-      >
-        Fresh Juice
-      </li>
+      {Object.keys(menu).map((category) => {
+        return (
+          <li
+            key={category}
+            className="bread_crumb"
+            onClick={() => setSelectedCategory(category)}
+          >
+            {formatCategoryName(category)}
+          </li>
+        );
+      })}
     </ul>
   );
 };
