@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 import logo from "../assets/logo.webp";
 
 const NavBar = () => {
+  const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -13,7 +14,12 @@ const NavBar = () => {
   return (
     <nav className="navbar_container">
       <div className="navbar_header">
-            <img src={logo} className="logo" alt="keif logo" />
+        <img
+          src={logo}
+          className="logo"
+          alt="keif logo"
+          onClick={() => navigate("/")}
+        />
         <button className="burger_icon" onClick={toggleMenu}>
           <span className="line"></span>
           <span className="line"></span>

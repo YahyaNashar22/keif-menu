@@ -1,38 +1,640 @@
 {
   "breakfast": [
     {
-      "name": "Drink",
-      "description": "Enjoy the freshness of our amazing drinks",
-      "price": 14.5,
+      "name": "ترويقة لبنانية عالأصول",
+      "description": "4 boiled eggs, scrambled eggs, mixed cheese, makdous, Jam, labne moka3zale, labne regular, turkey, mortadella, kachkaval.",
+      "price": 21.0,
       "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "name": "Drink",
-      "description": "Enjoy the freshness of our amazing drinks",
-      "price": 14.5,
+      "name": "Cheese Omelette",
+      "description": "",
+      "price": 8.0,
       "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "name": "Drink",
-      "description": "Enjoy the freshness of our amazing drinks",
-      "price": 14.5,
+      "name": "Plain Omelette",
+      "description": "",
+      "price": 6.0,
       "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "name": "Drink",
-      "description": "Enjoy the freshness of our amazing drinks",
-      "price": 14.5,
+      "name": "Veggie Omelette",
+      "description": "",
+      "price": 7.0,
       "image_url": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "name": "Turkey & Cheese Omelette",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Scrambled Eggs",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fired Eggs",
+      "description": "",
+      "price": 3.0,
+      "image_url": ""
+    },
+    {
+      "name": "Makdous",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chanklish",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Halloum Mechwe",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Foul With Side Vegetables",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Labneh With Side Vegetables",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Add Side Vegetables",
+      "description": "",
+      "price": 3.0,
+      "image_url": ""
     }
   ],
-  "foron": [],
-  "bagels": [],
-  "foul_w_hummus": [],
-  "appetizers": [],
-  "salads": [],
-  "soups": [],
-  "pasta": [],
-  "pizza": [],
+  "foron": [
+    {
+      "name": "Zaatar Baladi",
+      "description": "",
+      "price": 3.0,
+      "image_url": ""
+    },
+    {
+      "name": "Jebneh",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chanklich",
+      "description": "",
+      "price": 3.0,
+      "image_url": ""
+    },
+    {
+      "name": "Labneh w Vegetables",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Labneh W Makdous W Zaatar Akhdar",
+      "description": "",
+      "price": 5.5,
+      "image_url": ""
+    },
+    {
+      "name": "Kafta w Jebneh",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Turkey w Cheese",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Lahme Bi Aajine",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Jebne w Zaatar Special",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Law7et Keif",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Kaaket Keif",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Kaaket Kachkawan",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Kaaket Pepperoni w Cheese",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Kaaket Turkey w Cheese",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    }
+  ],
+  "bagels": [
+    {
+      "name": "Halloumi Bagel",
+      "description": "Halloumi, rocca leaves, tomatoes, pesto sauce",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Labneh Bagel",
+      "description": "Labneh, oregano, cucumber, tomatoes, olives, mint.",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Smoked Salmon Bagel",
+      "description": "Smoked Salmon, philadelphia cheese, caper, ginger.",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Smoked Turkey Bagel",
+      "description": "Smoked turkey, tomatoes, lettuce, emmental, cheese, avocado, mustard & mayo.",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Turkey & Cheese Bagel",
+      "description": "Turkey ham, mozzarella and cheddar cheese, lettuce, tomatoes, with aioli sauce.",
+      "price": 12.0,
+      "image_url": ""
+    }
+  ],
+  "foul_w_hummus": [
+    {
+      "name": "Hummus",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Hummus Hab B Thine",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Hummus و Meat",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Foul",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fatteh",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "Chicken Quesadillas",
+      "description": "",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Crispy Calamari",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Wings",
+      "description": "With your choice of sauce (BBQ, Buffalo, Honey Mustard)",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Dynamite Chicken",
+      "description": "Breaded chicken, with dynamite sauce.",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Dynamite Shrimps",
+      "description": "Breaded shrimps, with dynamite sauce.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Golden Chicken Parmesan",
+      "description": "Served with Honey Mustard sauce.",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Combo",
+      "description": "Potato wedges, mozzarella sticks, crispy calamari, shrimps pané, garlic bread.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mini Beef Burgers",
+      "description": "Australian Beef, cocktail sauce, cheddar slice, onton, lettuce, tomato.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mini Chicken Burger",
+      "description": "Chicken breast, aioli sauce, cheddar slice, and lettuce.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mix Mini Burgers",
+      "description": "A mix of Australian Beef and Chicken breast, aioli sauce, cocktail sauce, cheddar slice, onion, lettuce, tomato.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "B.B.Q Chicken Tortilla",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Buffalo Chicken Tortilla",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Curly Fries",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "French Fries",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Cheese Fries",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Truffle Fries",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Potato Wedges",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Garlic Cheese Bread",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Nachos",
+      "description": "",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Shrimp Tartare",
+      "description": "",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Edamame",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Golden Mozzarella Sticks",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Grilled Halloumi & Tomato Bruschetta",
+      "description": "",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Salmon Avocado Bruschetta",
+      "description": "",
+      "price": 18.0,
+      "image_url": ""
+    },
+    {
+      "name": "Bao Steak",
+      "description": "Australian beef, fresh green coriander, hot red chilli, and our secret sauce.",
+      "price": 19.0,
+      "image_url": ""
+    }
+  ],
+  "salads": [
+    {
+      "name": "Kale Chicken Mango Salad",
+      "description": "Fresh Kale, chicken, avocado, mango, strawberries, dry fruits, served with Honey Mustard sauce.",
+      "price": 18.0,
+      "image_url": ""
+    },
+    {
+      "name": "Rocca Salad",
+      "description": "Rocca, pomegranate, mushroom, nuts, cherry tomatoes, parmesan, and Balsamic sauce.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Tuna Pasta Salad",
+      "description": "Lettuce, corn, carrot, olives, cherry tomatoes, pasta, tuna, and lemon mayo sauce.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Warm Goat Cheese Salad",
+      "description": "Dry fruits, mix green leaves, apple sticks, strawberries, nuts, and Balsamic sauce.",
+      "price": 18.0,
+      "image_url": ""
+    },
+    {
+      "name": "Honey Halloumi Salad",
+      "description": "Mixed green leaves, cherty tomatoes, sweet chilly halloumi, walnuts, and our special sauce.",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Buratta Truffle Salad",
+      "description": "Mix green leaves, pesto cherry tomatoes, pieces of brown baguette, walnuts, lemon mustard sauce, Truffle buratta cheese.",
+      "price": 20.0,
+      "image_url": ""
+    },
+    {
+      "name": "Honey Watermelon",
+      "description": "",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Avocado & Beetroot Citrus Salad",
+      "description": "Mix green leaves, avocado, beetroot, and lemon mustard sauce.",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Avocado Chicken Ceaser Salad",
+      "description": "Crispy garlic bread, parmesan cheese, grilled chicken, avocado, cherry tomatoes, and ceaser sauce.",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Crab Sticks Salad",
+      "description": "Crab Sticks, Iceberg, mix green leaves, cucumber, carrot, avocado, with Crab sauce.",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Kale Chicken Mango Salad",
+      "description": "Avocado, mango, strawberries, dry fruits, with honey mustard sauce.",
+      "price": 18.0,
+      "image_url": ""
+    },
+    {
+      "name": "Feta Salad",
+      "description": "Mix green leaves, cherry tomatoes, cucumber, carrot, olives, green pepper, green thyme, onions, and lemon mayo sauce.",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Steak salad",
+      "description": "Mesclun mix leaves australian beef steak,artichoke,pousses de soja sundried peaches, radish, almonds & Cashew nuts served with honey mustard sauce",
+      "price": 23.0,
+      "image_url": ""
+    },
+    {
+      "name": "Kale Feta Salad",
+      "description": "Kale, feta, cherry tomatoes, sundried peaches, dried peaches, dried tomatoes, nuts, and olive oil sauce.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Shrimp avocado salad",
+      "description": "Baby spinach leaves, orzo pasta, mushroom fresh, avocado, crape fruit, pineapple, almond & cashew nuts, served with honey mustard sauce.",
+      "price": 22.0,
+      "image_url": ""
+    },
+    {
+      "name": "Quinoa Chicken Salad",
+      "description": "Rocca leaves, pomegranate, dry fruits, balsamic olive oil, mix green leaves, grilled chicken, served with a lemon mustard sauce.",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Quinoa Halloumi Salad",
+      "description": "Cherry tomatoes, quinoa, pomegranate, halloumi, rocca, lettuce, and a lemon.",
+      "price": 15.0,
+      "image_url": ""
+    }
+  ],
+  "soups": [
+    {
+      "name": "Ministrone Soup",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Broccoli Soup",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Creamy Chicken Mushroom Soup",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Lentil Soup",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Traditional Onion Soup",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    }
+  ],
+  "pasta": [
+    {
+      "name": "Chicken Spaghetti Rose",
+      "description": "Creamy tomato sauce, parmesan cheese.",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fettuccine Chicken Alfredo",
+      "description": "Creamy mushroom sauce, parmesan cheese, chicken.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mac N' Cheese Chicken",
+      "description": "",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Penne Arabiata",
+      "description": "Spicy tomato sauce, parmesan cheese.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Spaghetti Bolognese",
+      "description": "Tomato sauce, parmesan cheese, minced meat.",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Spicy Shrimp Linguini",
+      "description": "Tomato sauce, parmesan cheese.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Tortellini Pesto",
+      "description": "Baked in the oven, creamy pesto sauce, mozzarella and parmesan cheese",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Truffle Rigatoni",
+      "description": "Special truffle white sauce, black truffle, and parmesan cheese.",
+      "price": 20.5,
+      "image_url": ""
+    }
+  ],
+  "pizza": [
+    {
+      "name": "Pesto Pizza",
+      "description": "Tomato and pesto sauce mozzarella cheese, parmesan cheese, grilled chicken, cherry tomato, baby Rocca leaves.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Barbecue Chicken Pizza",
+      "description": "Cheddar slices, mozzarella, chicken, barbecue sauce, onions, fresh mushrooms.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Alfredo",
+      "description": "Creamy mushroom sauce, mozzarella, parmesan cheese, grilled chicken.",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Funghi",
+      "description": "Tomato sauce, mozzarella, fresh mushrooms, fresh basil, olives.",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Homemade",
+      "description": "Tomato sauce, turkey ham, fresh mushrooms, black olives, fresh basil:",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Pizza",
+      "description": "Trio Pizza (Pepperoni, Vegetarian, Homemade).",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mac N' Cheese",
+      "description": "Cheddar, parmesan, mozzarella, nachos.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Margheritta",
+      "description": "Tomato sauce, mozzarella, fresh basil..",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Pepperoni",
+      "description": "Tomato sauce, mozzarella, fresh mushrooms, black olives, fresh basil.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Vegetarian",
+      "description": "Tomato sauce, grilled vegetables, fresh mushrooms, black olives, sundried tomatoes, onions, mozzarella, fresh basil",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Buratta",
+      "description": "Tomato sauce, mozzarella, baby rocca leaves, cherry tomato and buratta cheese.",
+      "price": 20.0,
+      "image_url": ""
+    }
+  ],
   "noodles": [],
   "sandwiches": [],
   "burgers": [],
@@ -49,5 +651,12 @@
   "smoothies": [],
   "frozen_yogurt": [],
   "san_cha": [],
-  "shisha": []
+  "shisha": [
+    {
+      "name": "",
+      "description": "",
+      "price": 0.0,
+      "image_url": ""
+    }
+  ]
 }
