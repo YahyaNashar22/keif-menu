@@ -635,10 +635,290 @@
       "image_url": ""
     }
   ],
-  "noodles": [],
-  "sandwiches": [],
-  "burgers": [],
-  "main_course": [],
+  "noodles": [
+    {
+      "name": "Beef Noodles",
+      "description": "Noodles served with a Chinese sauce, Australian beef, mixed vegetables.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Noodles",
+      "description": "Noodles served with a Chinese sauce, marinated chicken, mixed vegetables.",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Veggie Noodles",
+      "description": "Noodles served with a Chinese sauce, fresh mushrooms, mixed vegetables.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Shrimp Noodles",
+      "description": "Noodles served with a Chinese sauce, shrimps, mixed vegetables.",
+      "price": 14.5,
+      "image_url": ""
+    }
+  ],
+  "sandwiches": [
+    {
+      "name": "Chicken Escalope Sandwich",
+      "description": "Fried chicken, escalope, aioli sauce, lettuce, avocado, and mixed cheese, served in Ciabatta bread, and fries.",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Burritos",
+      "description": "Fried chicken escalope, cheddar & mozzarella cheese, tomato salsa, avocado, nachos, lettuce, aioli sauce, served with fries and cheddar sauce.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Ceaser Sandwich",
+      "description": "",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Club Sandwich",
+      "description": "",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Philly Steak Sandwich",
+      "description": "",
+      "price": 23.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Shawarma",
+      "description": "",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Halloumi Sandwich",
+      "description": "",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Labneh Sandwich",
+      "description": "",
+      "price": 8.5,
+      "image_url": ""
+    }
+  ],
+  "burgers": [
+    {
+      "name": "BIG BANG BURGER",
+      "description": "",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Crispy Chicken Burger",
+      "description": "",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Burger",
+      "description": "",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Truffle Burger",
+      "description": "",
+      "price": 22.0,
+      "image_url": ""
+    },
+    {
+      "name": "Classic Cheese Burger",
+      "description": "",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Burger",
+      "description": "",
+      "price": 20.0,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Cheese Burger",
+      "description": "",
+      "price": 19.0,
+      "image_url": ""
+    },
+    {
+      "name": "Swiss Mushroom Burger",
+      "description": "",
+      "price": 17.0,
+      "image_url": ""
+    },
+    {
+      "name": "BBQ Burger",
+      "description": "",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "Turkey Burger",
+      "description": "",
+      "price": 13.0,
+      "image_url": ""
+    }
+  ],
+  "main_course": [
+    {
+      "name": "Beef Stroganoff",
+      "description": "Australian prime beef tenderlion slices dipped in a creamy stroganoff sauce served with basmati rice.",
+      "price": 21.0,
+      "image_url": ""
+    },
+    {
+      "name": "Biryani Chicken",
+      "description": "Charcoal boneless chicken served with biryani rice, tomato salsa, yogurt sauce, crispy onions, and a green salad.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Cheesy Chicken Roulade",
+      "description": "Four pieces of golden breaded chicken, topped with a creamy white sauce, and served with sauteed vegetables, and french fries.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Escalope Chicken",
+      "description": "Deep fried breaded chicken served with fries and a side salad.",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Grilled Fresh Fish",
+      "description": "Fresh daily fish grilled in the oven served with a quinoa mix, and safron potatoes.",
+      "price": 20.0,
+      "image_url": ""
+    },
+    {
+      "name": "Grilled Jumbo Shrimps",
+      "description": "Grilled Jumbo Shrimps served with provincial potatoes and a side salad.",
+      "price": 22.0,
+      "image_url": ""
+    },
+    {
+      "name": "Grilled Salmon",
+      "description": "Grilled Salmon fillet served with a special quinoa mix, grilled potatoes, and a creamy pesto sauce",
+      "price": 27.0,
+      "image_url": ""
+    },
+    {
+      "name": "Shrimp Curry",
+      "description": "Curry shrimps style served with basmati rice.",
+      "price": 23.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Curry",
+      "description": "Curry chicken breast style served with basmati rice, and sauteed vegetables.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Mushroom Rice",
+      "description": "Grilled chicken breast served with sauteed vegetables, and basmati rice.",
+      "price": 15.5,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Mushroom & Wedges",
+      "description": "",
+      "price": 17.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Mushroom & Fries",
+      "description": "",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Parmigiana",
+      "description": "Breaded chicken breast topped with a tomato sauce, and mozzarella cheese, served with fettuccine pasta",
+      "price": 18.0,
+      "image_url": ""
+    },
+    {
+      "name": "Spicy Chicken",
+      "description": "Grilled chicken breast with our spicy sauce served with basmati rice and chips.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Broccoli",
+      "description": "Grilled chicken breast served with fresh broccoli, potato wedges, and sauteed vegetables.",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken B.B.Q",
+      "description": "Fried chicken served with a BBQ sauce, and basmati rice.",
+      "price": 13.0,
+      "image_url": ""
+    },
+    {
+      "name": "Tikka Masala",
+      "description": "Chicken breast served with our special indian masala sauce, and basmati rice.",
+      "price": 17.0,
+      "image_url": ""
+    },
+    {
+      "name": "Sweet & Sour Chicken",
+      "description": "Breaded chicken breast coated with our homemade sweet & sour sauce, served with white rice, and chopped green onions.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Light Grilled Chicken",
+      "description": "Charcoal grilled chicken breast served with side steamed vegetables.",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Pesto",
+      "description": "",
+      "price": 19.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Pepperoni",
+      "description": "Breaded chicken breast, topped with a tomato sauce, mozzarella cheese, and beef pepperoni served with french fries and a side tomato sauce.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fish & Chips",
+      "description": "Breaded fresh fried fish served with french fries, tartar sauce and lemon.",
+      "price": 19.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Stroganoff",
+      "description": "",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Lemon",
+      "description": "Fried chicken served with a garlic and lemon sauce, sauteed vegetables, and pasta.",
+      "price": 13.0,
+      "image_url": ""
+    }
+  ],
   "steak": [],
   "mezze": [],
   "mashewe": [],
