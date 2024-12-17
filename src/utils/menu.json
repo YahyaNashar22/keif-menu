@@ -919,8 +919,204 @@
       "image_url": ""
     }
   ],
-  "steak": [],
-  "mezze": [],
+  "steak": [
+    {
+      "name": "Coeur de Fillet",
+      "description": "Australian prime beef tenderloin served with fries, sauteed vegetables, and a selection of sauce.",
+      "price": 31.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chateau Brillant (1kg serving 4 Persons)",
+      "description": "1kg of Beef fillet MB2 served with sauteed vegetables, french fries, and mashed potatoes.",
+      "price": 115.0,
+      "image_url": ""
+    },
+    {
+      "name": "Pepper Steak",
+      "description": "Australian beef filet steak 220g MB2, pepper sauce served with mashed potatoes.",
+      "price": 28.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mushroom Steak",
+      "description": "Australian beef steak 220 MB2 served with a mushroom sauce, sauteed vegetables, and mashed potatoes.",
+      "price": 29.0,
+      "image_url": ""
+    },
+    {
+      "name": "Steak & Fries",
+      "description": "Australian beef steak 220g MB2 served with a pepper sauce, and fries.",
+      "price": 29.0,
+      "image_url": ""
+    },
+    {
+      "name": "T-Bone Steak",
+      "description": "",
+      "price": 85.0,
+      "image_url": ""
+    },
+    {
+      "name": "Tomahawk Steak",
+      "description": "1kg tomahawk steak MB2 served with sauteed vegetables, french fries, and mashed potatoes.",
+      "price": 160.0,
+      "image_url": ""
+    },
+    {
+      "name": "Ribeye MB2 500g",
+      "description": "0.5kg of beef fillet MB2, served with sauteed vegetables, french fries, and mashed potatoes.",
+      "price": 75.0,
+      "image_url": ""
+    },
+    {
+      "name": "Ribeye MB2 1 kg",
+      "description": "1 kg of beef fillet MB2, served with sauteed vegetables, french fries, and mashed potatoes.",
+      "price": 145.0,
+      "image_url": ""
+    }
+  ],
+  "cold_mezze": [
+    {
+      "name": "Blatet Kebbeh Nayeh",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Hummus",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Moutabal Batenjen",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Stuffed Vine Leaves",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Taboule",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fattouch",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Salata Trabolsieh",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Eggplant Raheb",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Labneh Baladieh",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chamandar",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    }
+  ],
+  "hot_mezze": [
+    {
+      "name": "Cheese Rkakat (5 pcs)",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fried Kebbe (4 pcs)",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Sambousik Meat (4 pcs)",
+      "description": "",
+      "price": 4.5,
+      "image_url": ""
+    },
+    {
+      "name": "Soujouk",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Makanek",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Hummus & Meat",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Kafta in Pomegranate",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chicken Liver in Pomegranate",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Grilled Potato",
+      "description": "",
+      "price": 2.0,
+      "image_url": ""
+    },
+    {
+      "name": "Grilled Halloumi",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Potato Provincial",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Shrimp Provincial",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Wings Provincial",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    }
+  ],
   "mashewe": [],
   "cold_drinks": [],
   "hot_drinks": [],
