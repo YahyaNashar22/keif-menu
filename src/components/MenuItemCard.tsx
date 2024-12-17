@@ -1,17 +1,20 @@
 import { useState } from "react";
 import "../App.css";
 
+import placeholderImg from "../assets/placeholder.jpg";
+
 const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
+  const itemImage = item.image_url != "" ? item.image_url : placeholderImg;
   return (
     <>
       <div className="card_wrapper">
         <div className="card_image_wrapper">
           <img
-            src={item.image_url}
+            src={itemImage}
             className="item_pic"
             alt={item.name}
             width={150}
@@ -34,7 +37,7 @@ const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
             <button className="modal_close" onClick={closeModal}>
               &times;
             </button>
-            <img src={item.image_url} alt={item.name} className="modal_image" />
+            <img src={itemImage} alt={item.name} className="modal_image" />
           </div>
         </div>
       )}
