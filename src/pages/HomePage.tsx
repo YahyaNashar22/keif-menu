@@ -4,6 +4,7 @@ import MenuSection from "../components/MenuSection";
 import menuJson from "../utils/menu.json";
 import BreadCrumbs from "../components/BreadCrumbs";
 import { MenuType } from "../types";
+import NewestItems from "../components/NewestItems";
 
 const menu: MenuType = menuJson;
 
@@ -29,7 +30,7 @@ const HomePage = () => {
   };
   return (
     <main className="home_page">
-      
+      <NewestItems />
       <BreadCrumbs setSelectedCategory={setSelectedCategory} />
       <MenuSection
         categoryName={selectedCategory}

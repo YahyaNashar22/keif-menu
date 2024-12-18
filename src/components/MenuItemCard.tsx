@@ -38,7 +38,7 @@ const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
             {item.sub_name}
           </h3>
           <p className="item_desc">{item.description}</p>
-          <p className="item_price">{item.price}$</p>
+          <p className="item_price">{item.price.toFixed(2)}$</p>
         </div>
       </div>
 
