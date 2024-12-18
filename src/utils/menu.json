@@ -211,7 +211,7 @@
       "image_url": ""
     },
     {
-      "name": "Hummus و Meat",
+      "name": "Hummus w Meat",
       "description": "",
       "price": 9.0,
       "image_url": ""
@@ -713,7 +713,7 @@
   ],
   "burgers": [
     {
-      "name": "BIG BANG BURGER",
+      "name": "Big Bang Burger",
       "description": "",
       "price": 15.0,
       "image_url": ""
