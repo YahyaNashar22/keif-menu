@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../App.css";
 
 import placeholderImg from "../assets/placeholder.jpg";
+import isArabic from "../utils/isArabic";
 
 const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -24,7 +25,18 @@ const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
           />
         </div>
         <div className="card_content">
-          <h2 className="item_name">{item.name}</h2>
+          <h2
+            className={`item_name ${isArabic(item.name) ? "arabic_name" : ""}`}
+          >
+            {item.name}
+          </h2>
+          <h3
+            className={`item_sub_name ${
+              isArabic(item.sub_name) ? "arabic_name" : ""
+            }`}
+          >
+            {item.sub_name}
+          </h3>
           <p className="item_desc">{item.description}</p>
           <p className="item_price">{item.price}$</p>
         </div>

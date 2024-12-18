@@ -1117,8 +1117,324 @@
       "image_url": ""
     }
   ],
-  "mashewe": [],
-  "cold_drinks": [],
+  "mashewe": [
+    {
+      "name": "Keif Special Macheweh",
+      "description": "3 Lahmeh, 3 Taouk, 4 Kabab Lahmeh, 1 Large Arayes Kabab.",
+      "price": 30.0,
+      "image_url": ""
+    },
+    {
+      "name": "1/2 kg Mixed Macheweh",
+      "description": "",
+      "price": 24.0,
+      "image_url": ""
+    },
+    {
+      "name": "Grilled Meat Platter",
+      "description": "2 Lahmeh, Hommos, Garlic sauce, and french fries.",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Kabab Meat Platter",
+      "description": "4 Kabab, Hommos, Garlic sauce, and french fries.",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Shich Taouk Platter",
+      "description": "2 Taouk, Hommos, Garlic sauce, and french fries.",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mix Grill Platter",
+      "description": "2 Kabab, 1 Lahme, 1 taouk, Hommos, Garlic sauce, and french fries.",
+      "price": 16.0,
+      "image_url": ""
+    },
+    {
+      "name": "1/2 Grilled Boneless Chicken",
+      "description": "1/2 Grilled Boneless Chicken, Hommos, Garlic sauce, and french fries.",
+      "price": 12.0,
+      "image_url": ""
+    },
+    {
+      "name": "1/2 kg Grilled Kabab",
+      "description": "",
+      "price": 23.0,
+      "image_url": ""
+    },
+    {
+      "name": "1/2 kg Grilled Meat",
+      "description": "",
+      "price": 26.0,
+      "image_url": ""
+    },
+    {
+      "name": "1/2 kg Grilled Taouk",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Arayes Meat",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Arayes Kabab",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Chocolate Pizza",
+      "description": "Strawberry, banana, M&M",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Warm Lotus Brownie",
+      "description": "Served with Lotus Icecream",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Pain Perdu",
+      "description": "Served with Vanilla Icecream, and caramel sauce.",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Pain Perdu Lotus",
+      "description": "Served with Lotus Icecream, and Lotus sauce.",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Pain Perdu Chocolate",
+      "description": "Served with Vanilla Icecream, chocolate chips and chocolate sauce.",
+      "price": 10.5,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Osmalieh",
+      "description": "Homemade Osmalieh dough filled with Ashta Icecream.",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Crepe",
+      "description": "Served with Oreo, Chocolate Brownie, Vanilla Icecream, and Hazelnuts.",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Homemade Waffle",
+      "description": "Keif Waffle topped with Chocolate and Fruits, served with Vanilla Icecream.",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Giant Chocolate Cookie",
+      "description": "Freshly baked, stuffed with Chocolate and served with Vanilla Icecream.",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Pancakes",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Maamoul Jebneh",
+      "description": "",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Bouza w Ghazal",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "San Sebastian Cheese Cake",
+      "description": "",
+      "price": 5.5,
+      "image_url": ""
+    },
+    {
+      "name": "Choco Chocolate",
+      "description": "",
+      "price": 11.0,
+      "image_url": ""
+    },
+    {
+      "name": "Chocolate Fondant",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Kunafa",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Lotus Cake",
+      "description": "",
+      "price": 8.5,
+      "image_url": ""
+    },
+    {
+      "name": "Oreo Cake",
+      "description": "",
+      "price": 8.5,
+      "image_url": ""
+    },
+    {
+      "name": "Chocolate Mou",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fraise Mou",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Em Ali",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    }
+  ],
+  "cold_drinks": [
+    {
+      "name": "Small Water",
+      "description": "",
+      "price": 3.0,
+      "image_url": ""
+    },
+    {
+      "name": "Big Water",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Soft Drink",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Red Bull",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Perrier",
+      "sub_name": "(Small)",
+      "description": "",
+      "price": 4.5,
+      "image_url": ""
+    },
+    {
+      "name": "San Pallegrino",
+      "sub_name": "(Small)",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "San Pallegrino",
+      "sub_name": "(Big)",
+      "description": "",
+      "price": 6.5,
+      "image_url": ""
+    },
+    {
+      "name": "Iced Latte",
+      "sub_name": "(Vanilla or Caramel)",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Homemade Ice Tea",
+      "sub_name": "(Peach or Lemon)",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Laziza",
+      "sub_name": "(Regular or Apple)",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Amazonas",
+      "description": "Energy drink, blueberry, passion fruit, and lychee syrup with fresh lemonade.",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Granada",
+      "description": "Fresh pomegranate juice, fresh orange juice, iced mint, passion fruit, strawberry, and grenadine syrup.",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mamba Bay",
+      "description": "Energy drink, apple, kiwi, and blue curacao syrup with fresh lemonade, and fresh lemon juice.",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Picante",
+      "description": "Mango juice, mango, peach, passion fruit, and basil syrup, with fresh lemonade, and fresh orange juice.",
+      "price": 5.5,
+      "image_url": ""
+    },
+    {
+      "name": "Trovita",
+      "description": "Mango juice, fresh lemonade, fresh lemon, fresh orange juice, strawber- ry and passion fruit syrup.",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Berry Melon",
+      "description": "Passion fruit, blueberry, and watermelon syrup, with energy drink.",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mojito",
+      "description": "Blue curacao, blueberry, mango, passion fruit, peach, strawberry, rose.",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Ruby Pearl",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    }
+  ],
   "hot_drinks": [],
   "fresh_juice": [],
   "frappe": [],

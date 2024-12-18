@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Dancing+Script:wght@400..700&display=swap");
 
+@font-face {
+  font-family: "divani";
+  src: url("./assets/fonts/arfonts-divani-mazar.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -14,7 +21,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-weight: 700;
   font-family: "Dancing Script";
 }
@@ -238,6 +246,16 @@ button {
   font-weight: bold;
   color: var(--brown);
   margin-top: 10px;
+}
+
+.arabic_name {
+  font-family: "divani";
+}
+
+.item_sub_name {
+  font-size: 1.6rem;
+  color: var(--brown);
+  opacity: 0.8;
 }
 
 .item_desc {
