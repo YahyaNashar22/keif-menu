@@ -29,6 +29,7 @@ const HomePage = () => {
   };
   return (
     <main className="home_page">
+      
       <BreadCrumbs setSelectedCategory={setSelectedCategory} />
       <MenuSection
         categoryName={selectedCategory}

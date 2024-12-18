@@ -18,8 +18,8 @@ const MenuItemCard = ({ item }: { item: { [key: string]: any } }) => {
             src={itemImage}
             className="item_pic"
             alt={item.name}
-            width={150}
-            height={150}
+            width={100}
+            height={100}
             onClick={openModal}
             loading="lazy"
           />

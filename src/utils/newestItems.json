@@ -1,0 +1,34 @@
+{
+  "newest_items": [
+    {
+        "name": "B.B.Q Chicken Tortilla",
+        "description": "",
+        "price": 9.0,
+        "image_url": ""
+      },
+      {
+        "name": "Buffalo Chicken Tortilla",
+        "description": "",
+        "price": 9.0,
+        "image_url": ""
+      },
+      {
+        "name": "Truffle Fries",
+        "description": "",
+        "price": 9.0,
+        "image_url": ""
+      },
+      {
+        "name": "Maamoul Jebneh",
+        "description": "",
+        "price": 11.0,
+        "image_url": ""
+      },
+      {
+        "name": "Em Ali",
+        "description": "",
+        "price": 10.0,
+        "image_url": ""
+      }
+  ]
+}

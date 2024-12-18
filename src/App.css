@@ -28,6 +28,7 @@ h3 {
 }
 
 .title {
+  margin-bottom: 50px;
   text-align: center;
   font-family: "Baskervville";
   color: var(--dark-beige);
@@ -223,7 +224,7 @@ button {
 /* Styling for the image */
 .item_pic {
   position: absolute;
-  top: -20px; /* Pop the image out at the top */
+  top: 20px; /* Pop the image out at the top */
   left: 70px; /* Center the image horizontally */
   transform: translateX(-50%); /* Center adjustment */
   border-radius: 50%; /* Circular image */
@@ -339,7 +340,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  gap: 100px;
+  gap: 20px;
 }
 
 /* General styles for the breadcrumbs container */

@@ -274,7 +274,7 @@
     },
     {
       "name": "Mini Beef Burgers",
-      "description": "Australian Beef, cocktail sauce, cheddar slice, onton, lettuce, tomato.",
+      "description": "Australian Beef, cocktail sauce, cheddar slice, onion, lettuce, tomato.",
       "price": 16.0,
       "image_url": ""
     },
@@ -1435,7 +1435,112 @@
       "image_url": ""
     }
   ],
-  "hot_drinks": [],
+  "hot_drinks": [
+    {
+      "name": "Espresso",
+      "description": "",
+      "price": 2.5,
+      "image_url": ""
+    },
+    {
+      "name": "Double Espresso",
+      "description": "",
+      "price": 3.0,
+      "image_url": ""
+    },
+    {
+      "name": "Turkish Coffee",
+      "description": "",
+      "price": 3.0,
+      "image_url": ""
+    },
+    {
+      "name": "Americano",
+      "description": "",
+      "price": 3.0,
+      "image_url": ""
+    },
+    {
+      "name": "White Coffee",
+      "description": "",
+      "price": 2.0,
+      "image_url": ""
+    },
+    {
+      "name": "Cafe Latte",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Cappuccino",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Hot Chocholate",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Cafe Mocha",
+      "description": "",
+      "price": 4.5,
+      "image_url": ""
+    },
+    {
+      "name": "Matcha Latte",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Hot Lotus",
+      "description": "",
+      "price": 6.5,
+      "image_url": ""
+    },
+    {
+      "name": "Flat White",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Macchiato",
+      "sub_name": "(Plain or Caramel)",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Nescafe",
+      "sub_name": "(Original or Gold)",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Signature",
+      "description": "Milk or coffee mate, vanilla, caramel, and nestle.",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Aroma Panna",
+      "description": "Nescafe gold, toffee, caramel, and milk.",
+      "price": 5.5,
+      "image_url": ""
+    },
+    {
+      "name": "Sizzling Salted Caramel",
+      "description": "Salted caramel base, one espresso shot, and milk topped with salted caramel cream.",
+      "price": 5.0,
+      "image_url": ""
+    }
+  ],
   "fresh_juice": [],
   "frappe": [],
   "bubble_tea": [],
