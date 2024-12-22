@@ -13,6 +13,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background-color: var(--dark-beige);
+  color: #fff;
+}
+
 /* Global Styles */
 body {
   font-family: "Baskervville", serif;
@@ -97,6 +102,19 @@ button {
   background-color: var(--light-beige);
   border-radius: 2px;
   transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* When the menu is open */
+.burger_icon.open .line:nth-child(1) {
+  transform: translateY(7px) rotate(45deg); /* Rotate the first line */
+}
+
+.burger_icon.open .line:nth-child(2) {
+  opacity: 0; /* Hide the middle line */
+}
+
+.burger_icon.open .line:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg); /* Rotate the third line */
 }
 
 /* Navigation Links */
@@ -220,7 +238,7 @@ button {
 /* Card styling */
 .card_wrapper {
   position: relative;
-  width: 98%; /* Card width */
+  width: 92dvw; /* Card width */
   height: 100%;
   background-color: white; /* Card background */
   border-radius: 16px;

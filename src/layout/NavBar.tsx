@@ -20,7 +20,10 @@ const NavBar = () => {
           alt="keif logo"
           onClick={() => navigate("/")}
         />
-        <button className="burger_icon" onClick={toggleMenu}>
+        <button
+          className={`burger_icon ${menuOpen ? "open" : ""}`}
+          onClick={toggleMenu}
+        >
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
@@ -36,13 +39,6 @@ const NavBar = () => {
           onClick={() => setMenuOpen(false)}
         >
           About us
-        </NavLink>
-        <NavLink
-          to="/gallery"
-          className="nav_link"
-          onClick={() => setMenuOpen(false)}
-        >
-          Gallery
         </NavLink>
         <NavLink
           to="/feedback"
