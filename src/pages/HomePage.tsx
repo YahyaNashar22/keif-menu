@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import "../App.css";
 import MenuSection from "../components/MenuSection";
 import menuJson from "../utils/menu.json";
 import BreadCrumbs from "../components/BreadCrumbs";
 import { MenuType } from "../types";
 import NewestItems from "../components/NewestItems";
+import Loading from "../components/Loading";
 
 const menu: MenuType = menuJson;
 
@@ -32,10 +33,13 @@ const HomePage = () => {
     <main className="home_page">
       <NewestItems />
       <BreadCrumbs setSelectedCategory={setSelectedCategory} />
-      <MenuSection
-        categoryName={selectedCategory}
-        category={menu[selectedCategory]}
-      />
+      <Suspense fallback={<Loading />}>
+        <MenuSection
+          categoryName={selectedCategory}
+          category={menu[selectedCategory]}
+        />
+      </Suspense>
+
       {showButton && (
         <button className="back_to_top" onClick={scrollToTop}>
           ↑

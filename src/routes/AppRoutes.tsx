@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import HeaderFooterOutlet from "./HeaderFooterOutlet";
+import Loading from "../components/Loading";
 
 const LazyHome = lazy(() => import("../pages/HomePage"));
 const LazyAboutUs = lazy(() => import("../pages/AboutUsPage"));
@@ -15,7 +16,7 @@ const AppRoutes = () => {
         <Route
           path="/"
           element={
-            <Suspense fallback={"Loading . . ."}>
+            <Suspense fallback={<Loading />}>
               <LazyHome />
             </Suspense>
           }
@@ -24,7 +25,7 @@ const AppRoutes = () => {
         <Route
           path="/about-us"
           element={
-            <Suspense fallback={"Loading . . ."}>
+            <Suspense fallback={<Loading />}>
               <LazyAboutUs />
             </Suspense>
           }
@@ -33,7 +34,7 @@ const AppRoutes = () => {
         <Route
           path="/feedback"
           element={
-            <Suspense fallback={"Loading . . ."}>
+            <Suspense fallback={<Loading />}>
               <LazyFeedBack />
             </Suspense>
           }
@@ -42,7 +43,7 @@ const AppRoutes = () => {
         <Route
           path="/contact-us"
           element={
-            <Suspense fallback={"Loading . . ."}>
+            <Suspense fallback={<Loading />}>
               <LazyContactUs />
             </Suspense>
           }
