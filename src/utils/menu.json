@@ -1541,18 +1541,348 @@
       "image_url": ""
     }
   ],
-  "fresh_juice": [],
-  "frappe": [],
-  "bubble_tea": [],
-  "milkshakes": [],
-  "smoothies": [],
-  "frozen_yogurt": [],
-  "san_cha": [],
+  "fresh_juice": [
+    {
+      "name": "Fresh Orange Juice",
+      "description": "",
+      "price": 5.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fresh Carrot Juice",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fresh Pomegranate Juice",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fresh Lemonade",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mint Lemonade",
+      "description": "",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fresh Strawberry Juice",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Strawberry Guava Mix",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Fresh Avocado Juice",
+      "description": "",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Passion Mango Juice",
+      "description": "",
+      "price": 14.0,
+      "image_url": ""
+    },
+    {
+      "name": "Pineapple Juice",
+      "description": "",
+      "price": 15.0,
+      "image_url": ""
+    },
+    {
+      "name": "Pinacolada",
+      "description": "",
+      "price": 20.0,
+      "image_url": ""
+    }
+  ],
+  "frappe": [
+    {
+      "name": "Creamy matcha frappé",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Salted Caramel Frappé",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Caramel Frappé",
+      "description": "",
+      "price": 6.5,
+      "image_url": ""
+    },
+    {
+      "name": "Mocha Frappé",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "White Mocha Frappé",
+      "description": "",
+      "price": 6.5,
+      "image_url": ""
+    }
+  ],
+  "milkshakes": [
+    {
+      "name": "Chocolate Milkshake",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Lotus Milkshake",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    },
+    {
+      "name": "Oreo Milkshake",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Vanilla Milkshake",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Strawberry Milkshake",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Special Shake",
+      "description": "",
+      "price": 9.0,
+      "image_url": ""
+    },
+    {
+      "name": "Ashta Milkshake",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Roasted Peanut Butter Shake",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Berry Bloom Milkshake",
+      "description": "",
+      "price": 8.0,
+      "image_url": ""
+    }
+  ],
+  "smoothies": [
+    {
+      "name": "Keif Special Smoothie",
+      "description": "",
+      "price": 7.0,
+      "image_url": ""
+    },
+    {
+      "name": "Passion Fruit Smoothie",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Strawberry Smoothie",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Mango Smoothie",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    },
+    {
+      "name": "Peach Smoothie",
+      "description": "",
+      "price": 6.0,
+      "image_url": ""
+    }
+  ],
+  "frozen_yogurt": [
+    {
+      "name": "Mango Yogurt",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Strawberry Yogurt",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Peach Yogurt",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    }
+  ],
+  "san_cha": [
+    {
+      "name": "Ginger Green Tea",
+      "sub_name": "Sweet, Zingy & Refreshing",
+      "description": "Rich in Antioxidants: Indian Green Tea, fortified with the world's finest ginger, from the House of San-Cha. Ginger stimulates and enhances the flavour of green tea.",
+      "price": 3.5,
+      "image_url": ""
+    },
+    {
+      "name": "Vanilla Masala Chai",
+      "sub_name": "Famous House Blend",
+      "description": "East meets West with our Vanilla Masala Chai ! A delicious blend of crushed Cardamom seeds, Vanilla beans and a Malty full bodied breakfast tea.",
+      "price": 3.5,
+      "image_url": ""
+    },
+    {
+      "name": "Healthy Detox Green Tea",
+      "sub_name": "Fresh and Vegetal",
+      "description": "This select San-cha Green Tea has an aroma of early morning mist. It reminisces the fresh smell of mowed grass after it has rained.",
+      "price": 3.5,
+      "image_url": ""
+    },
+    {
+      "name": "Lemongrass White Tea",
+      "sub_name": "Silver Needles",
+      "description": "Lemongrass white tea relax and rejuvinate your body with antioxidants. Combine aromatherapy with therapeutic benefits of white tea.",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Rose White Tea",
+      "sub_name": "Silver Needles",
+      "description": "Rose white tea enjoy the goodness of antioxidant rich white tea blended with the aromatic hundred petal wild rose. Rose petals have long been used as skin toner that is believed prevent skin aging.",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Peppermint White Tea",
+      "sub_name": "Silver Needles",
+      "description": "The master blenders blend an antioxidant rich white tea with real peppermint leaves in this fresh selection. Enjoy a cooling sensation inside your body.",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Earl Grey Tea",
+      "sub_name": "Floral and Citrusy",
+      "description": "The Londoners Earl Grey Tea is a select darjeeling tea with a floral bouquet blended with the citrusy character of Bergamot.",
+      "price": 3.5,
+      "image_url": ""
+    },
+    {
+      "name": "Camomille Herbal Tea",
+      "sub_name": "Calming and refreshing",
+      "description": "A hot cup of Camomille tea is said to have sedative and analgesic properties, that helps one relax and calm down.",
+      "price": 3.5,
+      "image_url": ""
+    },
+    {
+      "name": "Earl Grey Green Tea",
+      "sub_name": "Fresh Citrus",
+      "description": "Rich in theanine, Indian green teas promote alpha brain waves and put you in a relaxed, yet alert state of mind, without causing drowsiness.",
+      "price": 3.5,
+      "image_url": ""
+    },
+    {
+      "name": "Darjeeling Tea",
+      "sub_name": "Rare Black Tea",
+      "description": "This automn season tea has a flowery aroma which is distinct to the nose and its deep golden color fills your heart with joy. It also has a spicy edge.",
+      "price": 3.5,
+      "image_url": ""
+    },
+    {
+      "name": "Moroccan Mint White Tea",
+      "sub_name": "Silver Needles",
+      "description": "Refresh and cool yout body with antioxidants rich mint white tea. Super aromatic mint finds a new home in a select white tea, carefully crafted by the San-cha tea house.",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Camomille White Tea",
+      "sub_name": "A Love Affair Aroma",
+      "description": "Enjoy the goodness of antioxidant rich white tea blended with aromatic and calming Camomille flowers and lemongrass.",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Lavender White Tea",
+      "sub_name": "Silver Needles",
+      "description": "The sensual one with a bewitching aroma. Lavender and Mint are classic refreshers that have been blended with antioxidant rich San-cha White Tea.",
+      "price": 4.0,
+      "image_url": ""
+    },
+    {
+      "name": "Marrakech Double Mint Green Tea",
+      "sub_name": "Dry Mint Leaves",
+      "description": "Inspired by an aromatic blend consumed at the famous kasbahs of Marrakech. Our master blenders weave together magic in this blend of floral gunpower green tea and two distinct mint leaves.",
+      "price": 3.5,
+      "image_url": ""
+    }
+  ],
   "shisha": [
     {
-      "name": "",
+      "name": "Moassal",
+      "sub_name": "",
       "description": "",
-      "price": 0.0,
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Esfahan",
+      "sub_name": "",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Turkish",
+      "sub_name": "",
+      "description": "",
+      "price": 10.0,
+      "image_url": ""
+    },
+    {
+      "name": "Ajami",
+      "sub_name": "",
+      "description": "",
+      "price": 10.5,
+      "image_url": ""
+    },
+    {
+      "name": "Keif Special",
+      "sub_name": "",
+      "description": "",
+      "price": 12.0,
       "image_url": ""
     }
   ]
