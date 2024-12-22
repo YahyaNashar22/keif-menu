@@ -7,7 +7,6 @@ const LazyHome = lazy(() => import("../pages/HomePage"));
 const LazyAboutUs = lazy(() => import("../pages/AboutUsPage"));
 const LazyContactUs = lazy(() => import("../pages/ContactUsPage"));
 const LazyFeedBack = lazy(() => import("../pages/FeedBackPage"));
-const LazyGallery = lazy(() => import("../pages/GalleryPage"));
 
 const AppRoutes = () => {
   return (
@@ -27,15 +26,6 @@ const AppRoutes = () => {
           element={
             <Suspense fallback={"Loading . . ."}>
               <LazyAboutUs />
-            </Suspense>
-          }
-        />
-
-        <Route
-          path="/gallery"
-          element={
-            <Suspense fallback={"Loading . . ."}>
-              <LazyGallery />
             </Suspense>
           }
         />
